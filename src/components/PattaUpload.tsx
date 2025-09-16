@@ -103,7 +103,7 @@ export const PattaUpload = ({ onDataExtracted }: PattaUploadProps) => {
       
       // Fallback to mock data for demo
       const mockData: ExtractedData = {
-        ownerName: "Ramesh Kumar Singh",
+        ownerName: "Karthic",
         surveyNumber: "Survey No. 234/1",
         area: "2.5 acres",
         village: "Kondagaon",
@@ -129,7 +129,7 @@ export const PattaUpload = ({ onDataExtracted }: PattaUploadProps) => {
     const lines = text.split('\n').filter(line => line.trim());
     
     return {
-      ownerName: extractField(lines, ['name', 'owner']) || "Ramesh Kumar",
+      ownerName: extractField(lines, ['name', 'owner']) || "Karthic",
       surveyNumber: extractField(lines, ['survey', 'number']) || "Survey No. 234/1",
       area: extractField(lines, ['area', 'acres']) || "2.5 acres",
       village: extractField(lines, ['village', 'gram']) || "Kondagaon",
