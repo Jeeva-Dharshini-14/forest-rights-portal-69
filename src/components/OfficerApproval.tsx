@@ -35,7 +35,7 @@ interface ClaimData {
 const mockClaims: ClaimData[] = [
   {
     id: 'FRA/CGH/BST/2024/004',
-    ownerName: 'Ramesh Kumar Singh',
+    ownerName: 'Karthic',
     surveyNumber: 'Survey No. 234/1',
     area: '2.5 acres',
     village: 'Kondagaon',
