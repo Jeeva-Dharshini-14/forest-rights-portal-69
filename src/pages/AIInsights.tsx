@@ -39,8 +39,8 @@ export const AIInsights = () => {
 
   const landUseData = [
     { name: 'Agricultural', value: 2456, color: '#22c55e' },
-    { name: 'Forest Land', value: 1834, color: '#3b82f6' },
-    { name: 'Water Bodies', value: 602, color: '#f59e0b' },
+    { name: 'Forest Land', value: 1834, color: '#f59e0b' },
+    { name: 'Water Bodies', value: 602, color: '#3b82f6' },
     { name: 'Grazing Land', value: 445, color: '#8b5cf6' }
   ];
 
