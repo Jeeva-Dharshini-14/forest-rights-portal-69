@@ -37,7 +37,7 @@ export const Export = () => {
   const claimsData = [
     {
       claimId: 'FRA/CGH/BST/2024/001',
-      beneficiary: 'Ramesh Kumar',
+      beneficiary: 'Karthic',
       village: 'Kondagaon',
       district: 'Bastar',
       landArea: 2.5,
