@@ -37,7 +37,7 @@ export const Atlas = () => {
     {
       id: 'FRA/CGH/BST/2024/001',
       coordinates: [81.2849, 19.1383],
-      beneficiary: 'Ramesh Kumar',
+      beneficiary: 'Karthic',
       status: 'approved',
       landArea: 2.5,
       village: 'Kondagaon'
