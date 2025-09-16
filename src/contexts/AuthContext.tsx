@@ -33,7 +33,7 @@ export const AuthProvider = ({ children }: AuthProviderProps) => {
     // Mock authentication - in real app, this would call an API
     const mockUser: User = {
       id: '1',
-      name: role === 'user' ? 'Ramesh Kumar' : role === 'officer' ? 'Priya Sharma' : 'Dr. Anil Gupta',
+      name: role === 'user' ? 'Karthic' : role === 'officer' ? 'Priya Sharma' : 'Dr. Anil Gupta',
       email,
       role,
       district: role === 'user' ? 'Bastar' : role === 'officer' ? 'Kanker' : undefined,
