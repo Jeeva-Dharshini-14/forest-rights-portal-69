@@ -52,8 +52,8 @@ export const AdminDashboard = () => {
 
   const landTypeData = [
     { name: 'Agricultural', value: 2456, color: '#22c55e' },
-    { name: 'Forest', value: 1834, color: '#3b82f6' },
-    { name: 'Water Bodies', value: 602, color: '#f59e0b' }
+    { name: 'Forest', value: 1834, color: '#f59e0b' },
+    { name: 'Water Bodies', value: 602, color: '#3b82f6' }
   ];
 
   const monthlyTrends = [
